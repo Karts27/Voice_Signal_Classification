@@ -35,12 +35,12 @@ The training dataset contains audio files of the following sounds and noises:
 30. Yes
 31. Zero
 
-#PreProcessing Tasks:
+## PreProcessing Tasks:
 1. Calculating power spectrum of the audio samples and plotting magnitude vs frequency graph of a random voice sample.
 2. Calculating Short Time Fourier Transformation by computing DFT over short over lapping windows
 3. Reconstructing the signal by re-sampling
 
-# Neural Network Model
+## Neural Network Model
 
 The models contains 1,611,498 trainable parameters. The models contains an input layer followed by a several Conv1D, MaxPool1D and Dropout layers.
 
